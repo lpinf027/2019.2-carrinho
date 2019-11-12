@@ -1,0 +1,8 @@
+ROTA1
+INICIO
+  SIGA;
+  SIGA;
+  SIGA;
+  SIGA;
+  SIGA;
+FIM;  

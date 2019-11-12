@@ -1,0 +1,6 @@
+INICIO
+  S;S;
+  ENQUANTO(vermelho ou amarelo)
+   P;
+  S; S; S;   
+FIM;

@@ -1,0 +1,28 @@
+INICIO - inicio de bloco
+FIM - final de bloco
+; - separador de comando
+SIGA - S - anda uma e somente uma casa
+PARE - P - não faz nada
+DIREITA - D - gira 90° para a direita
+ESQUERDA - E - gira 90° para a esquerda
+obstaculo - retorna verdade caso exista obstaculo na casa 
+            adiante; falso em caso contrário.
+verde - retorna verdade caso exista luz verde acesa na casa
+            adiante; falso em caso contrário.
+vermelho - retorna verdade caso exista luz vermelha acesa 
+            na casa adiante; falso em caso contrário.
+amarela - retorna verdade caso exista luz amarela acesa 
+            na casa adiante; falso em caso contrário.			
+nao, e, ou - operadores lógicos. permitem a construção de 
+             expressões, de acordo com a lógica classica			
+SE(condicao) 
+  comando1; 
+[SENAO
+  comando2;] - avalia a condicao, caso seja verdadeira
+               executa comando1; 
+			   caso contrario, executa comando2; 
+			   bloco senao é opcional.
+ENQUANTO(condicao)
+  comando; - avalia a condicao e enquanto ela for verdadeira
+			 executa o comando;
+			
