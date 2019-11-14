@@ -25,4 +25,10 @@ SE(condicao)
 ENQUANTO(condicao)
   comando; - avalia a condicao e enquanto ela for verdadeira
 			 executa o comando;
-			
+POSTIT nome; - separa um postit (memória) com um nome.
+
+<- : caneta (escreve o valor de uma expressao no postit)
+     ex: qtdeVoltas <- qtdeVoltas + 2;			
++ - * / : operadores da aritmetica
+> < >= <= = <> : operadores relacionais da algebra	 
+	 

@@ -1,3 +1,4 @@
+ROTA5
 INICIO
   S;S;
   ENQUANTO(vermelho ou amarelo)

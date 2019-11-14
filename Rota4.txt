@@ -1,1 +1,17 @@
 ROTA4
+INICIO
+  S; S; S;
+  SE(obstaculo)
+  INICIO
+    D; 
+	S; S; S; S;
+	E;  
+	S; S;
+	E;
+	S; S; S; S;
+  FIM;
+  SENAO
+  INICIO
+    S; S;
+  FIM;	
+FIM;

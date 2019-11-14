@@ -1,0 +1,12 @@
+INICIO
+  POSTIT voltas;
+  voltas <- 0;
+  ENQUANTO(voltas < 500)
+  INICIO
+	S; S; S; D;
+	S; S; S; D;
+	S; S; S; D;
+	S; S; S; D;
+	voltas <- voltas + 1;
+  FIM;
+FIM;

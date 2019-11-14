@@ -1,1 +1,15 @@
 ROTA4 - ALT
+ROTA4
+INICIO
+  S; S; S;
+  SE(obstaculo)
+  INICIO
+    D; 
+	S; S; S; S;
+	E;  
+	S; S;
+	E;
+	S; S;
+  FIM;
+  S; S; 
+FIM;

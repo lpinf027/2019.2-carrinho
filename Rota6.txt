@@ -1,0 +1,6 @@
+INICIO
+  S; S; S; D;
+  S; S; S; D;
+  S; S; S; D;
+  S; S; S; D;
+FIM;
