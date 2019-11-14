@@ -1,0 +1,24 @@
+ROTA10
+INICIO
+  POSTIT totalVoltas;
+  POSTIT voltas;
+  LER totalVoltas;
+  voltas <- 0;
+  ENQUANTO(voltas < totalVoltas) 
+  INICIO
+	S;S;S;D;
+	SE(obstaculo)
+	INICIO
+	  E;S;S;
+	  D;S;S;S;S;
+	  D;S;S;
+	FIM;   
+	SENAO
+	INICIO
+	  S;S;S;S;D;
+	FIM;
+	S;S;S;D;
+	S;S;S;S;D;
+	voltas <- voltas + 1;
+  FIM;
+FIM;  

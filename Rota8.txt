@@ -1,0 +1,16 @@
+ROTA8
+INICIO
+  S;S;S;D;
+  SE(obstaculo)
+  INICIO
+    E;S;S;
+	D;S;S;S;S;
+	D;S;S;
+  FIM;   
+  SENAO
+  INICIO
+    S;S;S;S;D;
+  FIM;
+  S;S;S;D;
+  S;S;S;S;D;
+FIM; 

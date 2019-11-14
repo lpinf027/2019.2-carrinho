@@ -26,7 +26,10 @@ ENQUANTO(condicao)
   comando; - avalia a condicao e enquanto ela for verdadeira
 			 executa o comando;
 POSTIT nome; - separa um postit (memória) com um nome.
-
+LER postit; - le um valor do teclado numerico e armazena o valor lido no POSTIT
+              de nome postit.
+ESCREVER postit - escrever no LCD o valor guardado no POSTIT
+              de nome postit.			  
 <- : caneta (escreve o valor de uma expressao no postit)
      ex: qtdeVoltas <- qtdeVoltas + 2;			
 + - * / : operadores da aritmetica

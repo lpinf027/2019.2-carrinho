@@ -1,3 +1,4 @@
+ROTA7
 INICIO
   POSTIT voltas;
   voltas <- 0;
